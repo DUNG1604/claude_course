@@ -16,12 +16,12 @@ Mục tiêu: sau khi push, ở máy khác Claude đọc memory/ là biết chín
    Nếu file đã tồn tại (học nhiều lần trong ngày / ở hai máy) → **thêm** một mục mới
    `## Phiên 2 (máy ...)`, không ghi đè. Cấu trúc:
    - `## Đã làm` — gạch đầu dòng cụ thể, có đường dẫn file lab
-   - `## Học được` — ý chính, ngắn; chi tiết đưa sang NOTES.md
+   - `## Học được` — ý chính, ngắn; chi tiết đưa sang `memory/notes/`
    - `## Vướng mắc` (nếu có)
    - `## Bước tiếp theo`
 
-3. **`memory/NOTES.md`** — thêm kiến thức lâu dài vào đúng chủ đề (tạo chủ đề mới nếu cần).
-   Không lặp lại nội dung đã có.
+3. **Kiến thức** — thêm vào đúng file `memory/notes/<chủ-đề>.md` (chưa có thì tạo file mới và thêm
+   1 dòng vào mục lục `memory/NOTES.md`). Không lặp lại nội dung đã có.
 
 4. **`memory/PROGRESS.md`** — **ghi đè** trạng thái hiện tại: ngày cập nhật, giai đoạn,
    đang làm gì, 1–3 bước tiếp theo cụ thể, câu hỏi đang mở. Cập nhật "Hồ sơ người học" nếu
@@ -30,7 +30,11 @@ Mục tiêu: sau khi push, ở máy khác Claude đọc memory/ là biết chín
 5. **`memory/ROADMAP.md`** — tick `[x]` các mục đã thật sự học + thực hành. Có thể thêm mục
    con nếu người học đi sâu vào thứ không có sẵn.
 
-6. **Kiểm tra**: không có API key/secret nào trong các file vừa sửa.
+6. **Kiểm tra**:
+   - Không có API key/secret nào trong các file vừa sửa.
+   - Độ dài file: chạy `find . -name "*.md" -not -path "./.venv/*" | xargs wc -l | sort -n` rồi so với
+     bảng giới hạn trong `.claude/rules/memory-files.md`. File nào vượt thì **tách ngay** theo cột
+     "Vượt thì làm gì", rồi Grep để sửa các link cũ. Báo lại cho người học biết đã tách những file nào.
 
 7. **Báo lại** ngắn gọn những gì đã lưu, rồi đưa lệnh git để người học tự chạy:
    ```

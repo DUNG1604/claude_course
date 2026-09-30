@@ -7,7 +7,7 @@ Sổ học tập hành trình làm chủ Claude → AI Engineer (ứng dụng), 
 ```bash
 git pull          # khi vừa chuyển máy
 claude            # mở Claude Code trong thư mục này
-/resume           # Claude đọc memory/ và cho biết bạn đang ở đâu
+/hoc-tiep         # Claude đọc memory/ và cho biết bạn đang ở đâu
 ...học...
 /save-progress    # Claude cập nhật memory/
 git add . && git commit -m "learn: ..." && git push
@@ -23,10 +23,12 @@ CLAUDE.md                     # Claude tự đọc mỗi phiên — dặn đọc
 memory/
   PROGRESS.md                 # đang ở đâu, bước tiếp theo (ghi đè)
   ROADMAP.md                  # lộ trình giai đoạn 0 → 9 (checklist)
-  NOTES.md                    # kiến thức đã học theo chủ đề
+  NOTES.md                    # mục lục kiến thức (1 dòng / chủ đề)
+  notes/<chủ-đề>.md           # chi tiết từng chủ đề
   sessions/YYYY-MM-DD.md      # nhật ký từng phiên
 labs/NN-<chủ-đề>/             # code thực hành
+.claude/rules/memory-files.md # giới hạn độ dài file & cách tách
 .claude/agents/ai-mentor.md   # subagent mentor
-.claude/skills/resume/        # /resume
+.claude/skills/hoc-tiep/      # /hoc-tiep
 .claude/skills/save-progress/ # /save-progress
 ```

@@ -16,7 +16,10 @@ Giao tiếp bằng **tiếng Việt**, thuật ngữ kỹ thuật giữ tiếng 
 - Khi mình học xong một khái niệm, giải xong một bài tập, hoặc có một insight/"aha" → ghi nhớ để
   lưu vào memory lúc cuối phiên (hoặc lưu ngay nếu quan trọng).
 - Kiến thức có giá trị lâu dài (giải thích khái niệm, pattern, gotcha) → ghi vào
-  [memory/NOTES.md](memory/NOTES.md), gom theo chủ đề, ngắn gọn, có ví dụ code nếu cần.
+  `memory/notes/<chủ-đề>.md` (ngắn gọn, có ví dụ code nếu cần) và thêm 1 dòng vào mục lục
+  [memory/NOTES.md](memory/NOTES.md). Chỉ đọc file chủ đề khi cần, đừng đọc hết.
+- Ngôn ngữ chính: **Python** (SDK `anthropic`). Mọi ví dụ và lab viết bằng Python, dùng `.venv`,
+  dependencies ghi vào `requirements.txt`, đọc key qua `python-dotenv`.
 - Code thực hành đặt trong `labs/<số>-<tên>/` (ví dụ `labs/01-messages-api/`), mỗi lab có README ngắn.
 - Dạy theo kiểu mentor: giải thích "tại sao", cho ví dụ chạy được, rồi giao bài tập nhỏ.
   Đừng làm hộ hết — để mình tự code, chỉ gợi ý khi mình bí.
@@ -36,3 +39,6 @@ Cập nhật memory theo skill `save-progress`:
 - Viết ngắn, cụ thể, đọc lại sau 1 tuần vẫn hiểu. Ngày tháng luôn ghi tuyệt đối (YYYY-MM-DD).
 - Không lưu secret/API key vào bất kỳ file nào trong repo (dùng `.env`, đã gitignore).
 - `PROGRESS.md` là trạng thái *hiện tại* — ghi đè, không phình ra. Lịch sử nằm ở `sessions/`.
+- **Giới hạn độ dài:** CLAUDE.md < 100 dòng, file nào vượt giới hạn thì tách nhỏ. Bảng giới hạn chi tiết
+  và cách tách ở [.claude/rules/memory-files.md](.claude/rules/memory-files.md), đọc trước khi tạo
+  hoặc sửa file trong `memory/`, `labs/`, `.claude/`.

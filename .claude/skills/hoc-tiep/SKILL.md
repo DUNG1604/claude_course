@@ -1,6 +1,6 @@
 ---
-name: resume
-description: Tiếp tục hành trình học từ lần trước. Dùng khi người học gõ /resume, hỏi "mình đang học tới đâu", "tiếp tục nhé", hoặc mở phiên mới trên máy khác sau khi git pull.
+name: hoc-tiep
+description: Tiếp tục hành trình học từ lần trước. Dùng khi người học gõ /hoc-tiep, hỏi "mình đang học tới đâu", "tiếp tục nhé", hoặc mở phiên mới trên máy khác sau khi git pull.
 ---
 
 # Tiếp tục học

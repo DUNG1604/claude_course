@@ -7,18 +7,28 @@
 ## Hồ sơ người học
 - Vai trò: Developer, hướng tới **AI Engineer (ứng dụng)**
 - Mục tiêu: làm chủ Claude từ cơ bản → nâng cao; xây được app/agent dùng LLM ở mức production
-- Ngôn ngữ lập trình chính: _(chưa ghi — hỏi mình ở phiên tới)_
+- Ngôn ngữ lập trình chính: **Python** (chuẩn hệ sinh thái AI) — labs dùng SDK `anthropic` cho Python
 - Thời gian học: học ở công ty + về nhà học tiếp (đồng bộ qua git)
 
 ## Vị trí hiện tại
-- **Giai đoạn:** 0 — Thiết lập môi trường học
-- **Đang làm:** Đã dựng repo `learn-claude` với hệ thống memory + agent `ai-mentor` + 2 skill
-  (`/resume`, `/save-progress`).
+- **Giai đoạn:** 1 — Claude Code · Khóa 1/8: **Claude Code 101** (bắt đầu 2026-09-30)
+- **Đang làm:** [labs/01-claude-code-101/README.md](../labs/01-claude-code-101/README.md) —
+  checklist thực hành theo 5 module. Xem các ô đã tick trong file đó để biết đang ở module nào.
+- **Bài giảng đã soạn:** [Module 1](../labs/01-claude-code-101/bai-giang-module-1.md),
+  [Module 2](../labs/01-claude-code-101/bai-giang-module-2.md) (2026-09-30).
+  Đang chờ người học trả lời 5 câu tự kiểm tra cuối bài → chấm rồi soạn Module 3.
 
 ## Bước tiếp theo (làm ngay phiên sau)
-1. Push repo lên GitHub, clone về máy nhà, chạy `claude` trong thư mục và gõ `/resume`.
-2. Cho Claude biết ngôn ngữ chính (Python hay TypeScript) để chọn SDK cho labs.
-3. Bắt đầu Giai đoạn 1: Claude Code cơ bản (CLAUDE.md, slash commands, permission modes).
+1. Push repo lên GitHub, clone về máy nhà, chạy `claude` trong thư mục và gõ `/hoc-tiep`.
+2. Máy công ty đã có Python 3.12 + `.venv` + thư viện; còn thiếu: dán API key vào `.env`.
+   Máy nhà: cài Python 3.12 → `python -m venv .venv` → `pip install -r requirements.txt` → tạo `.env`.
+3. Bắt đầu Giai đoạn 1 = khóa **Claude Code 101** trên Anthropic Academy (chỉ cần subscription).
+4. Trước khi tới khóa "Building with the Claude API": nạp API credits ở Console + đặt spend limit.
+
+## Quyết định đã chốt
+- 2026-09-30: Ngôn ngữ = Python. Nguồn học = khóa chọn lọc của Anthropic Academy (thứ tự trong
+  ROADMAP.md) + lab tự làm trong `labs/`.
+- Tài khoản: có **subscription Claude**, chưa có API credits.
 
 ## Câu hỏi đang mở / điều còn mơ hồ
 - _(chưa có)_

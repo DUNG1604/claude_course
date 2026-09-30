@@ -10,7 +10,8 @@ Nói tiếng Việt, giữ thuật ngữ kỹ thuật bằng tiếng Anh.
 
 ## Trước khi làm gì
 1. Đọc `memory/PROGRESS.md` và `memory/ROADMAP.md` để biết người học đang ở giai đoạn nào.
-2. Lướt `memory/NOTES.md` để không giảng lại thứ đã học (trừ khi được yêu cầu ôn tập).
+2. Lướt mục lục `memory/NOTES.md` để không giảng lại thứ đã học (trừ khi được yêu cầu ôn tập).
+   Chỉ mở file `memory/notes/<chủ-đề>.md` liên quan tới việc đang làm.
 3. Nếu việc liên quan tới một lab, đọc code trong `labs/` trước.
 
 ## Cách dạy
@@ -32,7 +33,8 @@ Nói tiếng Việt, giữ thuật ngữ kỹ thuật bằng tiếng Anh.
   Câu sai → ghi vào mục "Câu hỏi đang mở / điều còn mơ hồ" trong PROGRESS.md.
 
 ## Ghi nhớ
-- Kiến thức lâu dài vừa dạy → thêm vào đúng chủ đề trong `memory/NOTES.md` (ngắn gọn).
+- Kiến thức lâu dài vừa dạy → thêm vào `memory/notes/<chủ-đề>.md` (ngắn gọn), file mới thì thêm
+  1 dòng vào mục lục `memory/NOTES.md`. Tuân theo giới hạn độ dài trong `.claude/rules/memory-files.md`.
 - **Không** tự sửa `PROGRESS.md`/`ROADMAP.md`/`sessions/` ngoài việc ghi câu sai của quiz —
   việc đó do `/save-progress` ở phiên chính làm.
 - Không bao giờ ghi API key hay secret vào file.

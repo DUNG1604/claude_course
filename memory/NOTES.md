@@ -1,19 +1,16 @@
-# NOTES — Kiến thức đã học (gom theo chủ đề)
+# NOTES — Mục lục kiến thức
 
-> Kiến thức lâu dài. Mỗi mục: giải thích ngắn + ví dụ + gotcha. Thêm vào đúng chủ đề, đừng lặp.
+> Chỉ là **index**: 1 dòng cho 1 chủ đề. Chi tiết nằm trong `memory/notes/<chủ-đề>.md`.
+> Thêm kiến thức: sửa file chủ đề có sẵn, hoặc tạo file mới rồi thêm 1 dòng vào đây.
 
-## Claude Code — Cấu trúc thư mục `.claude/`
+## Khái niệm AI Engineering
+- [Harness](notes/harness.md): model = não, tools = tay, harness = cơ thể + hệ thần kinh
+- [Agentic loop](notes/agentic-loop.md): vòng `while` gọi API, `stop_reason`, `tool_result`, API stateless
 
-| Thứ | Vị trí | Dùng để |
-|---|---|---|
-| `CLAUDE.md` | gốc repo (hoặc `~/.claude/CLAUDE.md` cho mọi project) | Chỉ dẫn Claude tự đọc **mỗi phiên** |
-| Subagent | `.claude/agents/<tên>.md` | Một "Claude con" có system prompt + tools riêng, chạy trong context riêng |
-| Skill | `.claude/skills/<tên>/SKILL.md` | Bộ hướng dẫn tái sử dụng, gọi bằng `/<tên>` hoặc Claude tự dùng khi hợp |
-| Settings/Hooks | `.claude/settings.json` | Permissions, hooks, env |
+## Claude Code
+- [Cấu trúc `.claude/`](notes/claude-code-structure.md): CLAUDE.md, rules, agents, skills, settings, kèm gotcha
+- [Giới hạn độ dài file](notes/gioi-han-do-dai-file.md): CLAUDE.md < 200, SKILL.md < 500, mục lục khi > 100 dòng
 
-- **Gotcha:** memory mặc định của Claude Code nằm trong `~/.claude/projects/...` trên từng máy →
-  **không** đi theo git. Muốn đồng bộ giữa các máy thì để memory trong repo (như repo này) và
-  dặn trong `CLAUDE.md` là phải đọc nó.
-- **Gotcha:** subagent/skill mới tạo có thể cần mở lại phiên `claude` mới nhận.
-- Subagent vs Skill: subagent = *tách context* (việc dài, không muốn làm bẩn hội thoại chính);
-  skill = *quy trình/chỉ dẫn* chạy ngay trong hội thoại chính.
+## Tài khoản & môi trường
+- [Subscription vs API](notes/subscription-vs-api.md): hai hệ thống tính tiền riêng, gotcha `ANTHROPIC_API_KEY`
+- [Python trên Windows](notes/python-env-windows.md): cài bằng winget, venv, execution policy
