@@ -16,7 +16,12 @@
   checklist thực hành theo 5 module. Xem các ô đã tick trong file đó để biết đang ở module nào.
 - **Bài giảng đã soạn:** [Module 1](../labs/01-claude-code-101/bai-giang-module-1.md),
   [Module 2](../labs/01-claude-code-101/bai-giang-module-2.md) (2026-09-30).
-  Đang chờ người học trả lời 5 câu tự kiểm tra cuối bài → chấm rồi soạn Module 3.
+  [Module 3](../labs/01-claude-code-101/bai-giang-module-3.md),
+  [Module 4](../labs/01-claude-code-101/bai-giang-module-4.md) (2026-10-01).
+  Quiz Module 1 (2026-10-01): đúng hướng cả 4 câu, thiếu phần "vì sao" ở câu 2, 3.
+  Đã **bỏ qua**: câu 5 Module 1–2 và cả quiz Module 3 → gom vào ôn tập ở Module 5.
+  Tiếp theo: đọc Module 4 → **thực hành** (check_env.py của Module 3 + hook/skill `/til` của Module 4,
+  cần commit đầu tiên) → Module 5 (assessment).
 
 ## Bước tiếp theo (làm ngay phiên sau)
 1. Push repo lên GitHub, clone về máy nhà, chạy `claude` trong thư mục và gõ `/hoc-tiep`.
@@ -30,5 +35,8 @@
   ROADMAP.md) + lab tự làm trong `labs/`.
 - Tài khoản: có **subscription Claude**, chưa có API credits.
 
-## Câu hỏi đang mở / điều còn mơ hồ
-- _(chưa có)_
+## Câu hỏi đang mở / điều còn mơ hồ (ôn lại bằng quiz)
+- Checkpoint chỉ chụp file sửa qua tool Edit/Write → `rm` qua Bash không khôi phục được. Nhớ *vì sao*.
+- Quy tắc bị quên sau compact → cách sửa: đưa vào CLAUDE.md (được nạp lại sau compact) /
+  `/compact <trọng tâm>` / hook nếu bắt buộc. Chưa nêu được cách sửa cụ thể.
+- Hay nghĩ "chat = chỉ model". Thực ra claude.ai cũng có harness; khác biệt là agent tự lặp trên môi trường của mình.

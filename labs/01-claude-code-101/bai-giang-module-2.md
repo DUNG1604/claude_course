@@ -11,7 +11,7 @@
 - 2.4 Viết prompt đầu tiên tốt
 - 2.5 Thử ngay trên repo này
 
-Trước đó: [Module 1 — Claude Code là gì?](bai-giang-module-1.md)
+Trước đó: [Module 1 — Claude Code là gì?](bai-giang-module-1.md) · Tiếp theo: [Module 3 — Daily workflows](bai-giang-module-3.md)
 
 ---
 

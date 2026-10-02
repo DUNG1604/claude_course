@@ -8,7 +8,8 @@
 - [Agentic loop](notes/agentic-loop.md): vòng `while` gọi API, `stop_reason`, `tool_result`, API stateless
 
 ## Claude Code
-- [Cấu trúc `.claude/`](notes/claude-code-structure.md): CLAUDE.md, rules, agents, skills, settings, kèm gotcha
+- [Cấu trúc `.claude/`](notes/claude-code-structure.md): CLAUDE.md, rules, agents, skills, MCP, hooks; lời dặn vs luật; kèm gotcha
+- [Quản lý context](notes/context-management.md): /clear vs /compact, cái gì còn hoặc mất sau compact
 - [Giới hạn độ dài file](notes/gioi-han-do-dai-file.md): CLAUDE.md < 200, SKILL.md < 500, mục lục khi > 100 dòng
 
 ## Tài khoản & môi trường
