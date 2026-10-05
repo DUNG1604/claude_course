@@ -15,7 +15,7 @@
 - 4.7 Chi phí context của từng thứ
 - 4.8 Khi nào thêm cái gì, và mổ xẻ repo này
 
-Trước đó: [Module 3](bai-giang-module-3.md) · Thực hành: [README lab, phần Module 4](README.md)
+Trước đó: [Module 3](bai-giang-module-3.md) · Tiếp theo: [Module 5](bai-giang-module-5.md) · Thực hành: [README lab, phần Module 4](README.md)
 
 ---
 

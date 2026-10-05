@@ -2,7 +2,7 @@
 
 > File này là trạng thái HIỆN TẠI. Claude đọc nó đầu mỗi phiên. Ghi đè khi cập nhật.
 
-**Cập nhật lần cuối:** 2026-09-30 (máy công ty)
+**Cập nhật lần cuối:** 2026-10-05 (máy công ty)
 
 ## Hồ sơ người học
 - Vai trò: Developer, hướng tới **AI Engineer (ứng dụng)**
@@ -17,11 +17,12 @@
 - **Bài giảng đã soạn:** [Module 1](../labs/01-claude-code-101/bai-giang-module-1.md),
   [Module 2](../labs/01-claude-code-101/bai-giang-module-2.md) (2026-09-30).
   [Module 3](../labs/01-claude-code-101/bai-giang-module-3.md),
-  [Module 4](../labs/01-claude-code-101/bai-giang-module-4.md) (2026-10-01).
-  Quiz Module 1 (2026-10-01): đúng hướng cả 4 câu, thiếu phần "vì sao" ở câu 2, 3.
-  Đã **bỏ qua**: câu 5 Module 1–2 và cả quiz Module 3 → gom vào ôn tập ở Module 5.
-  Tiếp theo: đọc Module 4 → **thực hành** (check_env.py của Module 3 + hook/skill `/til` của Module 4,
-  cần commit đầu tiên) → Module 5 (assessment).
+  [Module 4](../labs/01-claude-code-101/bai-giang-module-4.md) (2026-10-01),
+  [Module 5 — tổng kết + đề ôn](../labs/01-claude-code-101/bai-giang-module-5.md) (2026-10-05).
+  **Lý thuyết khóa 1 đã xong** (2026-10-05). Người học bỏ qua quiz M2–M4 → gom vào đề ôn §5.4.
+  **Chưa làm thực hành** (§5.3): check_env.py, skill `/til`, hook SessionStart, quiz Skilljar.
+  Repo đã có commit (3 commit tính tới 2026-10-05).
+  Tiếp theo: làm thực hành §5.3 rồi mới tick khóa 1 → sang khóa 2 "Claude Code in Action".
 
 ## Bước tiếp theo (làm ngay phiên sau)
 1. Push repo lên GitHub, clone về máy nhà, chạy `claude` trong thư mục và gõ `/hoc-tiep`.
