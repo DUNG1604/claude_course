@@ -21,10 +21,10 @@ Chưa hiểu chỗ nào thì hỏi thẳng Claude trong repo này.
 **Explore → Plan → Code → Commit.** Nhờ Claude làm script `check_env.py` trong thư mục này. Script
 kiểm tra `.env` có `ANTHROPIC_API_KEY` chưa và key có đúng dạng `sk-ant-` không, **nhưng không bao
 giờ in key ra màn hình**.
-- [ ] **Explore:** yêu cầu Claude đọc `.env.example` và `requirements.txt` trước, *chưa được code*.
-- [ ] **Plan:** bật Plan mode (`Shift+Tab` trong CLI), duyệt kế hoạch, sửa ít nhất 1 điểm rồi mới cho code.
-- [ ] **Code:** chạy thử `.\.venv\Scripts\python.exe labs\01-claude-code-101\check_env.py`.
-- [ ] **Commit:** nhờ Claude viết commit message rồi commit.
+- [x] **Explore:** yêu cầu Claude đọc `.env.example` và `requirements.txt` trước, *chưa được code*.
+- [x] **Plan:** bật Plan mode (`Shift+Tab` trong CLI), duyệt kế hoạch, sửa ít nhất 1 điểm rồi mới cho code.
+- [x] **Code:** chạy thử `.\.venv\Scripts\python.exe labs\01-claude-code-101\check_env.py`.
+- [x] **Commit:** nhờ Claude viết commit message rồi commit.
 
 **Context management**
 - [ ] Gõ `/context` xem context window đang chứa những gì.
