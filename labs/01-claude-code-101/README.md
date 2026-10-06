@@ -40,7 +40,7 @@ giờ in key ra màn hình**.
 - [ ] **Subagents:** đọc [ai-mentor.md](../../.claude/agents/ai-mentor.md). Gõ `/agents` xem danh sách
       agent. Nhờ *"ai-mentor giảng lại cho mình về context window"*.
       → Ghi lại: subagent có thấy lịch sử hội thoại chính không? Vì sao điều đó hữu ích?
-- [ ] **Skills:** đọc [save-progress](../../.claude/skills/save-progress/SKILL.md). **Tự tạo** skill
+- [x] **Skills:** đọc [save-progress](../../.claude/skills/save-progress/SKILL.md). **Tự tạo** skill
       `/til` ("today I learned"): nhận 1 câu, thêm vào đúng file `memory/notes/<chủ-đề>.md` (cập nhật mục lục NOTES.md nếu tạo file mới).
 - [ ] **Rules:** đọc [.claude/rules/memory-files.md](../../.claude/rules/memory-files.md). Rule này có
       `paths:` nên chỉ được nạp khi Claude đọc file khớp. Chạy `/context` trước và sau khi nhờ Claude đọc
