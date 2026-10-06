@@ -52,7 +52,7 @@ giờ in key ra màn hình**.
 
 ## Module 5 — Assessment
 
-- [ ] Làm quiz của khóa.
+- [x] Làm quiz của khóa. (5/5, 2026-10-06)
 - [ ] Nhờ *"ai-mentor quiz mình về Claude Code 101"*. Câu nào sai sẽ được ghi vào PROGRESS.
 - [ ] Gõ `/save-progress` rồi push.
 

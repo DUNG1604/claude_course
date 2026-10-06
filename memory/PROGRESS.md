@@ -20,9 +20,11 @@
   [Module 4](../labs/01-claude-code-101/bai-giang-module-4.md) (2026-10-01),
   [Module 5 — tổng kết + đề ôn](../labs/01-claude-code-101/bai-giang-module-5.md) (2026-10-05).
   **Lý thuyết khóa 1 đã xong** (2026-10-05). Người học bỏ qua quiz M2–M4 → gom vào đề ôn §5.4.
-  **Chưa làm thực hành** (§5.3): check_env.py, skill `/til`, hook SessionStart, quiz Skilljar.
-  Repo đã có commit (3 commit tính tới 2026-10-05).
-  Tiếp theo: làm thực hành §5.3 rồi mới tick khóa 1 → sang khóa 2 "Claude Code in Action".
+  **Thực hành (2026-10-06):** ✅ hook SessionStart `git status --short` + dòng nhắc commit trong CLAUDE.md,
+  ✅ skill `/til` (đã kiểm chứng tự kích hoạt), ✅ `check_env.py` (Claude viết, 4 pha, commit 41a46b9).
+  ✅ Quiz Skilljar 5/5 (2026-10-06) → **KHÓA 1 HOÀN THÀNH**.
+  **Tiếp theo: khóa 2 "Claude Code in Action"** (Skilljar, chỉ cần subscription).
+  `.env` vẫn là key mẫu (check_env.py báo) — cần trước khóa API, chưa gấp.
 
 ## Bước tiếp theo (làm ngay phiên sau)
 1. Push repo lên GitHub, clone về máy nhà, chạy `claude` trong thư mục và gõ `/hoc-tiep`.

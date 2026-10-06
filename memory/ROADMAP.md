@@ -9,7 +9,7 @@ Khóa là "input", lab trong `labs/` là "output" — học xong mỗi khóa ph�
 
 | # | Khóa | Giai đoạn | Cần gì |
 |---|---|---|---|
-| 1 | [ ] Claude Code 101 | 1 | Subscription |
+| 1 | [x] Claude Code 101 (xong 2026-10-06) | 1 | Subscription |
 | 2 | [ ] Claude Code in Action | 1 | Subscription |
 | 3 | [ ] Introduction to agent skills | 1 | Subscription |
 | 4 | [ ] Introduction to subagents | 1 | Subscription |
@@ -33,11 +33,11 @@ Khóa là "input", lab trong `labs/` là "output" — học xong mỗi khóa ph�
 - [ ] Lấy API key tại console.anthropic.com, lưu vào `.env` (không commit)
 
 ## Giai đoạn 1 — Dùng Claude Code thành thạo (công cụ hằng ngày)
-- [ ] CLAUDE.md: project vs user (`~/.claude/CLAUDE.md`), cách viết hiệu quả
+- [x] CLAUDE.md: project vs user (`~/.claude/CLAUDE.md`), cách viết hiệu quả
 - [ ] Permission modes, `/config`, `/model`, `/clear`, `/compact`, Plan mode
-- [ ] Slash commands & **Skills** (`.claude/skills/*/SKILL.md`)
+- [x] Slash commands & **Skills** (`.claude/skills/*/SKILL.md`)
 - [ ] **Subagents** (`.claude/agents/*.md`) — khi nào nên tách agent
-- [ ] **Hooks** (settings.json) — tự động hoá trước/sau tool call
+- [x] **Hooks** (settings.json) — tự động hoá trước/sau tool call
 - [ ] **MCP servers** trong Claude Code (`claude mcp add ...`)
 - [ ] Workflow thực tế: đọc codebase lạ, refactor, viết test, review PR
 
