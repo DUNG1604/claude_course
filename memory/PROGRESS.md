@@ -11,19 +11,14 @@
 - Thời gian học: học ở công ty + về nhà học tiếp (đồng bộ qua git)
 
 ## Vị trí hiện tại
-- **Giai đoạn:** 1 — Claude Code · Khóa 1/8: **Claude Code 101** (bắt đầu 2026-09-30)
-- **Đang làm:** [labs/01-claude-code-101/README.md](../labs/01-claude-code-101/README.md) —
-  checklist thực hành theo 5 module. Xem các ô đã tick trong file đó để biết đang ở module nào.
-- **Bài giảng đã soạn:** [Module 1](../labs/01-claude-code-101/bai-giang-module-1.md),
-  [Module 2](../labs/01-claude-code-101/bai-giang-module-2.md) (2026-09-30).
-  [Module 3](../labs/01-claude-code-101/bai-giang-module-3.md),
-  [Module 4](../labs/01-claude-code-101/bai-giang-module-4.md) (2026-10-01),
-  [Module 5 — tổng kết + đề ôn](../labs/01-claude-code-101/bai-giang-module-5.md) (2026-10-05).
-  **Lý thuyết khóa 1 đã xong** (2026-10-05). Người học bỏ qua quiz M2–M4 → gom vào đề ôn §5.4.
-  **Thực hành (2026-10-06):** ✅ hook SessionStart `git status --short` + dòng nhắc commit trong CLAUDE.md,
-  ✅ skill `/til` (đã kiểm chứng tự kích hoạt), ✅ `check_env.py` (Claude viết, 4 pha, commit 41a46b9).
-  ✅ Quiz Skilljar 5/5 (2026-10-06) → **KHÓA 1 HOÀN THÀNH**.
-  **Tiếp theo: khóa 2 "Claude Code in Action"** (Skilljar, chỉ cần subscription).
+- **Giai đoạn:** 1 — Claude Code.
+- **Khóa 1/8 Claude Code 101: ✅ HOÀN THÀNH 2026-10-06** (quiz 5/5). Bài giảng + lab:
+  [labs/01-claude-code-101/](../labs/01-claude-code-101/README.md). Đã làm: hook SessionStart, skill `/til`,
+  `check_env.py`. Quiz tự luận M2–M4 bỏ qua → đề ôn ở bai-giang-module-5.md §5.4.
+- **Khóa 2/8: Claude Code in Action** (bắt đầu 2026-10-06) — lab [labs/02-claude-code-in-action/](../labs/02-claude-code-in-action/README.md).
+  5 module: Steer the Work · Configure Claude · Automate Repeat Work · Verify and Share · Quiz.
+  Đã soạn: [Module 1](../labs/02-claude-code-in-action/bai-giang-module-1.md) (queue, Esc, rewind, /goal).
+  Tiếp theo: đọc Module 1 → làm checklist Module 1 trong lab (sân tập `playground/`) → Module 2.
   `.env` vẫn là key mẫu (check_env.py báo) — cần trước khóa API, chưa gấp.
 
 ## Bước tiếp theo (làm ngay phiên sau)

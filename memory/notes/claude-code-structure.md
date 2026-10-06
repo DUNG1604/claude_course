@@ -23,6 +23,8 @@
 - **Thư mục tự đặt (vd `inventory/`) không bao giờ tự nạp.** Phải có chuỗi link bắt đầu từ thứ *tự nạp*
   (CLAUDE.md / rule / description skill) → index → file chi tiết, sâu 1 cấp. Link markdown chỉ là gợi ý,
   Claude tự Read khi thấy cần; chỉ `@import` mới nạp thật (và nạp toàn bộ). Câu dặn phải có điều kiện "khi nào".
+- **VS Code extension ≠ CLI:** extension chỉ có *một phần* lệnh `/` (không có `/branch`, `!` bash, `Ctrl+T/O`).
+  Rewind/fork trong extension: hover tin nhắn → nút rewind. Cần đủ tính năng → chạy `claude` trong terminal.
 - **Lời dặn vs luật:** CLAUDE.md/skill = lời dặn (Claude có thể quên/bỏ qua). Hook = luật, harness luôn
   chạy. Bắt buộc 100% (vd cấm sửa `.env`) → hook `PreToolUse` exit 2. Chi tiết: [Module 4](../../labs/01-claude-code-101/bai-giang-module-4.md).
 - Hook `SessionStart` + matcher `compact`: stdout được bơm lại vào context sau compact → cách chữa quy tắc bị quên.
