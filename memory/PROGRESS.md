@@ -17,8 +17,11 @@
   `check_env.py`. Quiz tự luận M2–M4 bỏ qua → đề ôn ở bai-giang-module-5.md §5.4.
 - **Khóa 2/8: Claude Code in Action** (bắt đầu 2026-10-06) — lab [labs/02-claude-code-in-action/](../labs/02-claude-code-in-action/README.md).
   5 module: Steer the Work · Configure Claude · Automate Repeat Work · Verify and Share · Quiz.
-  Đã soạn: [Module 1](../labs/02-claude-code-in-action/bai-giang-module-1.md) (queue, Esc, rewind, /goal).
-  Tiếp theo: đọc Module 1 → làm checklist Module 1 trong lab (sân tập `playground/`) → Module 2.
+  Đã soạn: [Module 1](../labs/02-claude-code-in-action/bai-giang-module-1.md) (queue, Esc, rewind, /goal) —
+  đã hỏi đáp kỹ /goal, rewind/branch, VS Code vs CLI; **chưa làm lab M1** (cần CLI).
+  [Module 2](../labs/02-claude-code-in-action/bai-giang-module-2.md) (CLAUDE.md, verification, permission modes, hooks) —
+  đã đọc + hỏi đáp 4 câu (2026-10-06); **chưa làm lab M2** (chưa có deny rule, skill `kiem-tra-memory`).
+  Tiếp theo: lab M1 + M2 (trong CLI) → Module 3.
   `.env` vẫn là key mẫu (check_env.py báo) — cần trước khóa API, chưa gấp.
 
 ## Bước tiếp theo (làm ngay phiên sau)

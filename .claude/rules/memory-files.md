@@ -27,4 +27,5 @@ Quy tắc chung:
 - Ⓐ Link giữa các file chỉ **sâu 1 cấp** tính từ file index (index → file con, không đi tiếp).
 - Tên file mô tả nội dung, kebab-case (`tool-use-basics.md`, không phải `notes2.md`).
 - Tách file xong phải cập nhật **mọi link** trỏ tới nội dung cũ (dùng Grep để tìm).
-- Kiểm tra nhanh: `find . -name "*.md" -not -path "./.venv/*" | xargs wc -l | sort -n`
+- Kiểm tra nhanh: skill `/kiem-tra-memory` (script so với bảng trên). Đổi giới hạn ở đây → sửa luôn
+  `LIMITS` trong `.claude/skills/kiem-tra-memory/check_lengths.py`.

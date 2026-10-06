@@ -12,7 +12,7 @@
 - 1.5 /goal: để Claude tự chạy tới khi đạt điều kiện
 - 1.6 Bảng chọn nhanh
 
-Thực hành: [README lab, phần Module 1](README.md)
+Tiếp theo: [Module 2](bai-giang-module-2.md) · Thực hành: [README lab, phần Module 1](README.md)
 
 ---
 
