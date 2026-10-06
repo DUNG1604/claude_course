@@ -35,7 +35,7 @@ giờ in key ra màn hình**.
 
 ## Module 4 — Tùy biến Claude Code (repo này có sẵn ví dụ để mổ xẻ)
 
-- [ ] **CLAUDE.md:** đọc [CLAUDE.md](../../CLAUDE.md), tự thêm 1 quy tắc của riêng bạn. Mở phiên mới
+- [x] **CLAUDE.md:** đọc [CLAUDE.md](../../CLAUDE.md), tự thêm 1 quy tắc của riêng bạn. Mở phiên mới
       và kiểm tra Claude có làm theo không.
 - [ ] **Subagents:** đọc [ai-mentor.md](../../.claude/agents/ai-mentor.md). Gõ `/agents` xem danh sách
       agent. Nhờ *"ai-mentor giảng lại cho mình về context window"*.
@@ -46,7 +46,7 @@ giờ in key ra màn hình**.
       `paths:` nên chỉ được nạp khi Claude đọc file khớp. Chạy `/context` trước và sau khi nhờ Claude đọc
       một file trong `memory/` để thấy rule được nạp lúc nào.
 - [ ] **MCP:** chạy `claude mcp list`. Tự trả lời: MCP server khác tool có sẵn ở điểm nào?
-- [ ] **Hooks:** tạo hook `SessionStart` trong `.claude/settings.json` chạy `git status --short`,
+- [x] **Hooks:** tạo hook `SessionStart` trong `.claude/settings.json` chạy `git status --short`,
       để mỗi lần mở phiên thấy ngay còn thay đổi nào chưa commit hoặc push (hữu ích khi học ở 2 máy).
       Không làm được thì nhờ Claude, nhưng phải hiểu từng dòng.
 

@@ -35,6 +35,8 @@
 - 2026-09-30: Ngôn ngữ = Python. Nguồn học = khóa chọn lọc của Anthropic Academy (thứ tự trong
   ROADMAP.md) + lab tự làm trong `labs/`.
 - Tài khoản: có **subscription Claude**, chưa có API credits.
+- 2026-10-06: Người học thích **Claude viết file cấu hình/skill**, mình tập trung hiểu + kiểm chứng.
+  → Mentor: viết hộ phần cấu hình được, nhưng luôn giải thích từng dòng và để người học tự kiểm chứng.
 
 ## Câu hỏi đang mở / điều còn mơ hồ (ôn lại bằng quiz)
 - Checkpoint chỉ chụp file sửa qua tool Edit/Write → `rm` qua Bash không khôi phục được. Nhớ *vì sao*.

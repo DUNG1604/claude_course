@@ -13,7 +13,9 @@
   dặn trong `CLAUDE.md` là phải đọc nó.
 - **Gotcha:** đặt tên skill đừng trùng lệnh built-in. Skill `resume` trùng `/resume` (lệnh mở lại
   hội thoại cũ) → đã đổi thành `/hoc-tiep`.
-- **Gotcha:** subagent/skill mới tạo có thể cần mở lại phiên `claude` mới nhận.
+- **Gotcha — khi nào thay đổi có hiệu lực:** skill mới tạo được harness **nhận ngay** trong phiên đang chạy
+  (đã thấy 2026-10-06 với `/til`). Hook trong `settings.json` thì **phải mở phiên mới** (hook `SessionStart`
+  đã lỡ lúc mở phiên thì không chạy bù). Subagent mới: nếu không thấy thì mở phiên mới.
 - **CLAUDE.md nhiều cấp = cộng dồn, không ghi đè:** `~/.claude/CLAUDE.md` (mọi project) + CLAUDE.md từ thư mục
   chạy `claude` đi **ngược lên** (nạp lúc mở phiên) + CLAUDE.md thư mục **con** (chỉ nạp khi Claude đụng file
   trong đó, mất sau compact). Mâu thuẫn thì Claude tự cân nhắc → đừng viết mâu thuẫn. Skill/subagent thì ngược
