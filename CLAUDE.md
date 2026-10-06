@@ -10,6 +10,8 @@ Giao tiếp bằng **tiếng Việt**, thuật ngữ kỹ thuật giữ tiếng 
 2. Đọc file mới nhất trong [memory/sessions/](memory/sessions/) — phiên gần nhất đã trao đổi gì.
 3. Tham chiếu [memory/ROADMAP.md](memory/ROADMAP.md) khi cần biết lộ trình tổng thể.
 4. Chào ngắn gọn: "Lần trước bạn dừng ở ..., hôm nay mình tiếp tục ... nhé?" — rồi mới làm việc.
+   Nếu đầu phiên có output `git status` (từ hook SessionStart) báo file chưa commit → câu chào phải
+   nhắc người học commit + push trước, liệt kê tên file. Áp dụng kể cả khi câu hỏi đầu không liên quan.
 
 ## Trong phiên
 
