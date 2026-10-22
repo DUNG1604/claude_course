@@ -1,6 +1,6 @@
 import unittest
 
-from text_stats import count_sentences, count_words, longest_word
+from text_stats import count_sentences, count_words, dem_nguyen_am, longest_word
 
 
 class TestCountWords(unittest.TestCase):
@@ -50,6 +50,28 @@ class TestLongestWord(unittest.TestCase):
 
     def test_vietnamese(self):
         self.assertEqual(longest_word("Tôi học nghiêng"), "nghiêng")
+
+
+class TestDemNguyenAm(unittest.TestCase):
+    def test_empty(self):
+        self.assertEqual(dem_nguyen_am(""), 0)
+        self.assertEqual(dem_nguyen_am("bcd 123 !?"), 0)
+
+    def test_simple(self):
+        self.assertEqual(dem_nguyen_am("hello world"), 3)
+
+    def test_case_insensitive(self):
+        self.assertEqual(dem_nguyen_am("AEIOU aeiou"), 10)
+
+    def test_y_is_vowel(self):
+        self.assertEqual(dem_nguyen_am("my ly"), 2)
+
+    def test_vietnamese_diacritics(self):
+        self.assertEqual(dem_nguyen_am("ăâêôơư"), 6)
+        self.assertEqual(dem_nguyen_am("Tiếng Việt"), 4)
+
+    def test_d_stroke_not_vowel(self):
+        self.assertEqual(dem_nguyen_am("Đđ"), 0)
 
 
 if __name__ == "__main__":

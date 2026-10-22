@@ -9,6 +9,7 @@
 
 ## Claude Code
 - [Cấu trúc `.claude/`](notes/claude-code-structure.md): CLAUDE.md, rules, agents, skills, MCP, hooks; lời dặn vs luật; kèm gotcha
+- [Stop hook](notes/stop-hook.md): exit 2 chặn dừng, `stop_hook_active`, `--settings` 1 phiên, hook không biết test sai
 - [Quản lý context](notes/context-management.md): /clear vs /compact, cái gì còn hoặc mất sau compact
 - [Giới hạn độ dài file](notes/gioi-han-do-dai-file.md): CLAUDE.md < 200, SKILL.md < 500, mục lục khi > 100 dòng
 

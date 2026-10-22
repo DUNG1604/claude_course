@@ -1,11 +1,14 @@
 """Thống kê văn bản đơn giản: đếm từ, đếm câu, tìm từ dài nhất."""
 
 import re
+import unicodedata
 
 # Từ = chuỗi chữ/số liền nhau (hỗ trợ tiếng Việt có dấu), cho phép dấu nháy/gạch nối ở giữa: "don't", "e-mail"
 WORD_RE = re.compile(r"[^\W_]+(?:['\-][^\W_]+)*")
 # Câu kết thúc bằng . ! ? (một hoặc nhiều dấu, ví dụ "..." hay "?!")
 SENTENCE_END_RE = re.compile(r"[.!?]+")
+# Nguyên âm gốc (tiếng Việt tính cả y); ă â ê ô ơ ư và dấu thanh được quy về đây sau khi bỏ dấu
+VOWELS = set("aeiouy")
 
 
 def words(text: str) -> list[str]:
@@ -28,3 +31,10 @@ def longest_word(text: str) -> str | None:
     """Trả về từ dài nhất (từ xuất hiện trước thắng khi bằng độ dài); None nếu không có từ."""
     ws = words(text)
     return max(ws, key=len) if ws else None
+
+
+def dem_nguyen_am(text: str) -> int:
+    """Đếm số nguyên âm (a e i o u y, kể cả có dấu tiếng Việt), không phân biệt hoa thường."""
+    # NFD tách "ố" thành "o" + dấu mũ + dấu sắc → chỉ cần xét ký tự gốc
+    base = unicodedata.normalize("NFD", text.lower())
+    return sum(1 for ch in base if ch in VOWELS)

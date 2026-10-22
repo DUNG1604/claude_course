@@ -82,7 +82,7 @@ login claude.ai, shell **không** có `ANTHROPIC_API_KEY`, không dùng `--bare`
       ghi lại `session_id`. Rồi `claude -p --resume <session_id> "liệt kê chính xác lệnh đã chạy, exit code, trích nguyên văn output"`.
       Cuối cùng mở file `.jsonl` của phiên trong `%USERPROFILE%\.claude\projects\` và tìm tool call Bash.
       Đạt: chỉ ra được lệnh + exit code **trong transcript**, khớp (hoặc không khớp) với `result`.
-- [ ] **Stop hook chốt test (§4.4):** tạo `.claude/hooks/chot_test.py` theo bài giảng và file `labs/02-claude-code-in-action/stop-hook.json`
+- [x] **Stop hook chốt test (§4.4):** *(xong 2026-10-22, xem [notes/stop-hook.md](../../memory/notes/stop-hook.md))* tạo `.claude/hooks/chot_test.py` theo bài giảng và file `labs/02-claude-code-in-action/stop-hook.json`
       chứa khối `hooks.Stop`. Chạy `claude --settings labs/02-claude-code-in-action/stop-hook.json` (hook chỉ có trong phiên này,
       không ảnh hưởng phiên thường). Nhờ Claude *"thêm hàm `dem_nguyen_am` vào text_stats.py kèm test, không cần chạy test"*,
       cố ý để 1 test sai. Đạt: `Ctrl+O` thấy feedback của hook, Claude sửa tới khi xanh; giải thích được `stop_hook_active`.
