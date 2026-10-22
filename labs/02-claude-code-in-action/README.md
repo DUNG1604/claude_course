@@ -86,7 +86,7 @@ login claude.ai, shell **không** có `ANTHROPIC_API_KEY`, không dùng `--bare`
       chứa khối `hooks.Stop`. Chạy `claude --settings labs/02-claude-code-in-action/stop-hook.json` (hook chỉ có trong phiên này,
       không ảnh hưởng phiên thường). Nhờ Claude *"thêm hàm `dem_nguyen_am` vào text_stats.py kèm test, không cần chạy test"*,
       cố ý để 1 test sai. Đạt: `Ctrl+O` thấy feedback của hook, Claude sửa tới khi xanh; giải thích được `stop_hook_active`.
-- [ ] **Đóng gói plugin local (§4.7):** tạo `plugins/hoc-tap/` có `.claude-plugin/plugin.json` + chép
+- [x] **Đóng gói plugin local (§4.7):** *(xong 2026-10-22, xem [notes/plugin.md](../../memory/notes/plugin.md))* tạo `plugins/hoc-tap/` có `.claude-plugin/plugin.json` + chép
       `kiem-tra-memory` và `til` vào `plugins/hoc-tap/skills/` (giữ nguyên bản gốc trong `.claude/skills/`).
       `claude plugin validate ./plugins/hoc-tap` → `claude --plugin-dir ./plugins/hoc-tap` → gọi `/hoc-tap:kiem-tra-memory`.
       Sẽ có lỗi đường dẫn (`parents[3]`, link tương đối) → sửa bằng `${CLAUDE_PROJECT_DIR}` / `${CLAUDE_SKILL_DIR}`.
