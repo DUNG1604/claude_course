@@ -1,5 +1,8 @@
 # ROADMAP — Claude cho AI Engineer (ứng dụng)
 
+**Mục lục:** Nguồn học (bảng khóa) · GĐ 0 Thiết lập · 1 Claude Code · 2 Prompt · 3 Messages API ·
+4 Tool use · 5 Production · 6 RAG · 7 Evals · 8 Agents · 9 Capstone
+
 Tick `[x]` khi đã học + làm lab. Mỗi giai đoạn nên có ít nhất 1 lab trong `labs/`.
 
 ## Nguồn học chính: Anthropic Academy (https://anthropic.skilljar.com/)
@@ -38,6 +41,10 @@ Khóa là "input", lab trong `labs/` là "output" — học xong mỗi khóa ph�
 - [x] Slash commands & **Skills** (`.claude/skills/*/SKILL.md`)
 - [ ] **Subagents** (`.claude/agents/*.md`) — khi nào nên tách agent
 - [x] **Hooks** (settings.json) — tự động hoá trước/sau tool call
+  - [x] Stop hook chốt test, bật 1 phiên bằng `--settings` (2026-10-22)
+- [ ] **Plugins & marketplace** — đóng gói skill dùng ở repo khác
+  - [x] Plugin local `plugins/hoc-tap/` + `--plugin-dir` (2026-10-22)
+  - [ ] Marketplace: `marketplace.json`, cài/gỡ
 - [ ] **MCP servers** trong Claude Code (`claude mcp add ...`)
 - [ ] Workflow thực tế: đọc codebase lạ, refactor, viết test, review PR
 
