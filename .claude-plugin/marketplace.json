@@ -1,0 +1,11 @@
+{
+  "name": "dung-tools",
+  "owner": { "name": "dungnq" },
+  "plugins": [
+    {
+      "name": "hoc-tap",
+      "source": "./plugins/hoc-tap",
+      "description": "Skill học tập của repo learn-claude: kiểm tra độ dài memory, ghi nhanh điều vừa học"
+    }
+  ]
+}

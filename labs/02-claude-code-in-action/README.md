@@ -91,7 +91,7 @@ login claude.ai, shell **không** có `ANTHROPIC_API_KEY`, không dùng `--bare`
       `claude plugin validate ./plugins/hoc-tap` → `claude --plugin-dir ./plugins/hoc-tap` → gọi `/hoc-tap:kiem-tra-memory`.
       Sẽ có lỗi đường dẫn (`parents[3]`, link tương đối) → sửa bằng `${CLAUDE_PROJECT_DIR}` / `${CLAUDE_SKILL_DIR}`.
       Đạt: `✔ Validation passed`, skill chạy ra đúng exit code như bản gốc; ghi lại lỗi đã gặp.
-- [ ] *(Tùy chọn — làm sau bài plugin)* **Marketplace (§4.8):** thêm `.claude-plugin/marketplace.json` ở gốc repo trỏ
+- [x] *(Tùy chọn — làm sau bài plugin)* **Marketplace (§4.8):** *(xong 2026-10-26 bản local, chưa thử từ GitHub)* thêm `.claude-plugin/marketplace.json` ở gốc repo trỏ
       `./plugins/hoc-tap`. `claude plugin validate ./` → `claude plugin marketplace add ./` → `claude plugin install hoc-tap@<tên>`
       → `claude plugin list`. Ở máy nhà thử `claude plugin marketplace add DUNG1604/claude_course` (repo private cần git đã đăng nhập).
       Xong thì `claude plugin marketplace remove <tên>`. Đạt: cài + gỡ sạch, giải thích được entry name vs manifest name.

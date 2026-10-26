@@ -42,9 +42,9 @@ Khóa là "input", lab trong `labs/` là "output" — học xong mỗi khóa ph�
 - [ ] **Subagents** (`.claude/agents/*.md`) — khi nào nên tách agent
 - [x] **Hooks** (settings.json) — tự động hoá trước/sau tool call
   - [x] Stop hook chốt test, bật 1 phiên bằng `--settings` (2026-10-22)
-- [ ] **Plugins & marketplace** — đóng gói skill dùng ở repo khác
+- [x] **Plugins & marketplace** — đóng gói skill dùng ở repo khác
   - [x] Plugin local `plugins/hoc-tap/` + `--plugin-dir` (2026-10-22)
-  - [ ] Marketplace: `marketplace.json`, cài/gỡ
+  - [x] Marketplace local `dung-tools`: `marketplace.json`, cài/gỡ (2026-10-26)
 - [ ] **MCP servers** trong Claude Code (`claude mcp add ...`)
 - [ ] Workflow thực tế: đọc codebase lạ, refactor, viết test, review PR
 

@@ -22,14 +22,14 @@
   - M3: mới thử `/loop`; bỏ qua headless/CI/routine/`@claude` (2026-10-09).
   - M4 (2026-10-22): ✅ bài 2 Stop hook ([notes/stop-hook.md](notes/stop-hook.md)),
     ✅ bài 3 plugin `plugins/hoc-tap/` ([notes/plugin.md](notes/plugin.md)).
-    Bài 4 Marketplace: **đang làm** — đã giao đề, chưa có `.claude-plugin/marketplace.json`. Bài 1 (`.jsonl`) chưa làm.
+    ✅ bài 4 Marketplace local `dung-tools` (2026-10-26, đã gỡ sạch). Bài 1 (`.jsonl`) chưa làm.
   - M5: quiz chưa làm.
 - Commit `a327c1d`, `74dda38` **chưa push** (ahead 2).
 - `.env` vẫn là key mẫu — cần trước khóa API, chưa gấp.
 
 ## Bước tiếp theo (làm ngay phiên sau)
-1. `git push`, rồi bài 4 Marketplace: **tự viết** `marketplace.json` (đề ở README lab 02), cài `--scope local`, gỡ sạch.
-2. Kiểm chứng `/hoc-tap:kiem-tra-memory` qua Claude (`--plugin-dir` + `Ctrl+O`) → bài 1 → quiz Module 5 → đóng khóa 2.
+1. `git push`. Bài 1 Module 4 (đọc `.jsonl` phiên `-p`) → quiz Module 5 → đóng khóa 2.
+2. (Còn treo) Kiểm chứng `/hoc-tap:kiem-tra-memory` qua Claude (`--plugin-dir` + `Ctrl+O`).
 3. Trước khóa "Building with the Claude API": nạp API credits ở Console + đặt spend limit, dán key vào `.env`.
 
 ## Quyết định đã chốt
